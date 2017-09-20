@@ -7,20 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		164C8B511C0D354E0007A6B1 /* TVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164C8B501C0D354E0007A6B1 /* TVApp.swift */; };
-		164C8B561C0D354E0007A6B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164C8B541C0D354E0007A6B1 /* Main.storyboard */; };
-		164C8B581C0D354F0007A6B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164C8B571C0D354F0007A6B1 /* Assets.xcassets */; };
-		164C8B741C0D36500007A6B1 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B1046A871A7F2C700017187F /* NSArray+PureLayout.m */; };
-		164C8B751C0D36500007A6B1 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B1046A851A7F2C700017187F /* ALView+PureLayout.m */; };
-		164C8B761C0D36500007A6B1 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B1046A891A7F2C700017187F /* NSLayoutConstraint+PureLayout.m */; };
-		164C8B791C0D36500007A6B1 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B1046A861A7F2C700017187F /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		164C8B7A1C0D36500007A6B1 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B1046A841A7F2C700017187F /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		164C8B7B1C0D36500007A6B1 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B1046A881A7F2C700017187F /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		164C8B7C1C0D36500007A6B1 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = B1046A8C1A7F2C700017187F /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		164C8B7D1C0D36500007A6B1 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B1046A8A1A7F2C700017187F /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		164C8B7E1C0D36500007A6B1 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B1046A8B1A7F2C700017187F /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		164C8B8C1C0D37C70007A6B1 /* PureLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 164C8B831C0D36500007A6B1 /* PureLayout.framework */; };
-		164C8B8D1C0D37C70007A6B1 /* PureLayout.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 164C8B831C0D36500007A6B1 /* PureLayout.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		567E6C881C4125C60031B78F /* ALiOSDemo11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567E6C861C4125C60031B78F /* ALiOSDemo11ViewController.m */; };
 		567E6C891C4126CF0031B78F /* iOSDemo11ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567E6C831C41240E0031B78F /* iOSDemo11ViewController.swift */; };
 		A7371DC31B68792800DB94B6 /* PureLayoutBatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7371DC21B68792800DB94B6 /* PureLayoutBatchTests.m */; };
@@ -62,7 +48,6 @@
 		B1006C7019E76D4200B92767 /* ALiOSDemo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1006C6F19E76D4200B92767 /* ALiOSDemo1ViewController.m */; };
 		B1046A811A7F29F80017187F /* PureLayoutDistributeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1046A801A7F29F80017187F /* PureLayoutDistributeTests.m */; };
 		B1046A821A7F29F80017187F /* PureLayoutDistributeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1046A801A7F29F80017187F /* PureLayoutDistributeTests.m */; };
-		B1046A9E1A7F2CE80017187F /* PureLayoutTests-Mac-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1046A9D1A7F2CE80017187F /* PureLayoutTests-Mac-Info.plist */; };
 		B1046AA01A7F2D050017187F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1046A9A1A7F2CDA0017187F /* InfoPlist.strings */; };
 		B1046AA31A7F2D520017187F /* PureLayoutPriorityTests-iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = B1046AA21A7F2D520017187F /* PureLayoutPriorityTests-iOS.m */; };
 		B1046AA91A7F2D670017187F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1046AA71A7F2D670017187F /* InfoPlist.strings */; };
@@ -71,23 +56,12 @@
 		B1046AD01A7F32670017187F /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B1046A851A7F2C700017187F /* ALView+PureLayout.m */; };
 		B1046AD11A7F32670017187F /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B1046A871A7F2C700017187F /* NSArray+PureLayout.m */; };
 		B1046AD21A7F32670017187F /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B1046A891A7F2C700017187F /* NSLayoutConstraint+PureLayout.m */; };
-		B1046AEF1A7F32790017187F /* PureLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1046AD81A7F32790017187F /* PureLayout.framework */; };
-		B1046AF01A7F32790017187F /* PureLayout.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B1046AD81A7F32790017187F /* PureLayout.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B1046AF81A7F32890017187F /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B1046A851A7F2C700017187F /* ALView+PureLayout.m */; };
-		B1046AF91A7F32890017187F /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B1046A871A7F2C700017187F /* NSArray+PureLayout.m */; };
-		B1046AFA1A7F32890017187F /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B1046A891A7F2C700017187F /* NSLayoutConstraint+PureLayout.m */; };
 		B1046AFD1A7F37060017187F /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B1046A841A7F2C700017187F /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1046AFE1A7F37070017187F /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B1046A841A7F2C700017187F /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1046AFF1A7F37100017187F /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B1046A861A7F2C700017187F /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1046B001A7F37100017187F /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B1046A881A7F2C700017187F /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1046B011A7F37100017187F /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B1046A8A1A7F2C700017187F /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B1046B021A7F37100017187F /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B1046A8B1A7F2C700017187F /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1046B031A7F37100017187F /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = B1046A8C1A7F2C700017187F /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1046B041A7F37110017187F /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B1046A861A7F2C700017187F /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1046B051A7F37110017187F /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B1046A881A7F2C700017187F /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1046B061A7F37110017187F /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B1046A8A1A7F2C700017187F /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		B1046B071A7F37110017187F /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B1046A8B1A7F2C700017187F /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1046B081A7F37110017187F /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = B1046A8C1A7F2C700017187F /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1046B0A1A7F38930017187F /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B1046A871A7F2C700017187F /* NSArray+PureLayout.m */; };
 		B1046B0B1A7F38930017187F /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B1046A891A7F2C700017187F /* NSLayoutConstraint+PureLayout.m */; };
 		B1046B0D1A7F38930017187F /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B1046A871A7F2C700017187F /* NSArray+PureLayout.m */; };
@@ -122,14 +96,8 @@
 		B162DF7219EB2BAB00D56FEA /* ALiOSDemo7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B162DF7119EB2BAB00D56FEA /* ALiOSDemo7ViewController.m */; };
 		B162DF7519EB343000D56FEA /* ALiOSDemo8ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B162DF7419EB343000D56FEA /* ALiOSDemo8ViewController.m */; };
 		B162DF7819EB3A4500D56FEA /* ALiOSDemo9ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B162DF7719EB3A4500D56FEA /* ALiOSDemo9ViewController.m */; };
-		B17D24B619565F6C00F2FD4B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1A290E619562FDA00D4765E /* MainMenu.xib */; };
 		B17D24CA1956648700F2FD4B /* PureLayoutTestBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B17D24C91956648700F2FD4B /* PureLayoutTestBase.m */; };
 		B17D24CB1956648700F2FD4B /* PureLayoutTestBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B17D24C91956648700F2FD4B /* PureLayoutTestBase.m */; };
-		B17D24CF1957763300F2FD4B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B17D24CD1957763300F2FD4B /* Localizable.strings */; };
-		B183791A195646850055842C /* ALMacViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1837919195646850055842C /* ALMacViewController.m */; };
-		B1A290E019562FDA00D4765E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A290DF19562FDA00D4765E /* main.m */; };
-		B1A290E319562FDA00D4765E /* ALMacAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A290E219562FDA00D4765E /* ALMacAppDelegate.m */; };
-		B1A290E519562FDA00D4765E /* Images-Mac.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1A290E419562FDA00D4765E /* Images-Mac.xcassets */; };
 		B1B9C68C1A1E6FC200E50B6A /* ALiOSDemo10ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B9C68B1A1E6FC200E50B6A /* ALiOSDemo10ViewController.m */; };
 		B1EC855F195662790099293C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EC855E195662790099293C /* XCTest.framework */; };
 		B1EC8560195662790099293C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12C23E017C3FDE4001CF667 /* Foundation.framework */; };
@@ -138,20 +106,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		164C8B8E1C0D37C70007A6B1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B12C23D317C3FDE4001CF667 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 164C8B721C0D36500007A6B1;
-			remoteInfo = PureLayout_tvOS;
-		};
-		6D207E9A1E2E99EB00CCDD7C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B12C23D317C3FDE4001CF667 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B1A290DA19562FDA00D4765E;
-			remoteInfo = "Example-Mac";
-		};
 		A7D496571B7B084800A74818 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B12C23D317C3FDE4001CF667 /* Project object */;
@@ -166,13 +120,6 @@
 			remoteGlobalIDString = B1046AAF1A7F32380017187F;
 			remoteInfo = "PureLayout-iOS";
 		};
-		B1046AED1A7F32790017187F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B12C23D317C3FDE4001CF667 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B1046AD71A7F32790017187F;
-			remoteInfo = "PureLayout-Mac";
-		};
 		B1046B191A7F4A640017187F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B12C23D317C3FDE4001CF667 /* Project object */;
@@ -183,17 +130,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		164C8B901C0D37C70007A6B1 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				164C8B8D1C0D37C70007A6B1 /* PureLayout.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A7D496791B7B084800A74818 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -216,26 +152,13 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1046AF41A7F32790017187F /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				B1046AF01A7F32790017187F /* PureLayout.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		164C8B4E1C0D354E0007A6B1 /* Example-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		164C8B501C0D354E0007A6B1 /* TVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVApp.swift; sourceTree = "<group>"; };
 		164C8B551C0D354E0007A6B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		164C8B571C0D354F0007A6B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		164C8B591C0D354F0007A6B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		164C8B831C0D36500007A6B1 /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		164C8B921C0D380E0007A6B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		567E6C831C41240E0031B78F /* iOSDemo11ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSDemo11ViewController.swift; path = "Example-iOS/Demos/iOSDemo11ViewController.swift"; sourceTree = SOURCE_ROOT; };
 		567E6C851C4125C60031B78F /* ALiOSDemo11ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALiOSDemo11ViewController.h; path = "Example-iOS/Demos/ALiOSDemo11ViewController.h"; sourceTree = SOURCE_ROOT; };
@@ -278,7 +201,6 @@
 		B1046AA81A7F2D670017187F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		B1046AAA1A7F2D720017187F /* PureLayoutTests-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PureLayoutTests-iOS-Prefix.pch"; path = "PureLayoutTests/PureLayoutTests-iOS/PureLayoutTests-iOS-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		B1046AB01A7F32380017187F /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1046AD81A7F32790017187F /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1089C0B1957767400339027 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = "Example-iOS/ar.lproj/Localizable.strings"; sourceTree = SOURCE_ROOT; };
 		B1089C0D1957767D00339027 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "Example-iOS/en.lproj/Localizable.strings"; sourceTree = SOURCE_ROOT; };
 		B1089C1A195787C900339027 /* PureLayoutCenteringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PureLayoutCenteringTests.m; path = PureLayoutTests/PureLayoutCenteringTests.m; sourceTree = "<group>"; };
@@ -321,7 +243,6 @@
 		B17D24D01957763900F2FD4B /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B1837918195646850055842C /* ALMacViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMacViewController.h; sourceTree = "<group>"; };
 		B1837919195646850055842C /* ALMacViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMacViewController.m; sourceTree = "<group>"; };
-		B1A290DB19562FDA00D4765E /* Example-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A290DE19562FDA00D4765E /* Example-Mac-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Example-Mac-Info.plist"; sourceTree = "<group>"; };
 		B1A290DF19562FDA00D4765E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B1A290E119562FDA00D4765E /* ALMacAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALMacAppDelegate.h; sourceTree = "<group>"; };
@@ -336,21 +257,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		164C8B4B1C0D354E0007A6B1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				164C8B8C1C0D37C70007A6B1 /* PureLayout.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		164C8B771C0D36500007A6B1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A7D496701B7B084800A74818 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -369,13 +275,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1046AD41A7F32790017187F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B12C23D817C3FDE4001CF667 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -384,14 +283,6 @@
 				B12C23E117C3FDE4001CF667 /* Foundation.framework in Frameworks */,
 				B1046AC71A7F32380017187F /* PureLayout.framework in Frameworks */,
 				B12C23E317C3FDE4001CF667 /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B1A290D819562FDA00D4765E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B1046AEF1A7F32790017187F /* PureLayout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,14 +460,10 @@
 			isa = PBXGroup;
 			children = (
 				B12C23DB17C3FDE4001CF667 /* Example-iOS.app */,
-				B1A290DB19562FDA00D4765E /* Example-Mac.app */,
 				B1EC855D195662790099293C /* PureLayoutTests-iOS.xctest */,
 				B1EC857C195662B40099293C /* PureLayoutTests-Mac.xctest */,
 				B1046AB01A7F32380017187F /* PureLayout.framework */,
-				B1046AD81A7F32790017187F /* PureLayout.framework */,
 				A7D4967E1B7B084800A74818 /* Example-iOS-Xcode7.app */,
-				164C8B4E1C0D354E0007A6B1 /* Example-tvOS.app */,
-				164C8B831C0D36500007A6B1 /* PureLayout.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -704,19 +591,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		164C8B781C0D36500007A6B1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				164C8B791C0D36500007A6B1 /* NSArray+PureLayout.h in Headers */,
-				164C8B7A1C0D36500007A6B1 /* ALView+PureLayout.h in Headers */,
-				164C8B7B1C0D36500007A6B1 /* NSLayoutConstraint+PureLayout.h in Headers */,
-				164C8B7C1C0D36500007A6B1 /* PureLayoutDefines.h in Headers */,
-				164C8B7D1C0D36500007A6B1 /* PureLayout+Internal.h in Headers */,
-				164C8B7E1C0D36500007A6B1 /* PureLayout.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B1046AAD1A7F32380017187F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -730,59 +604,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1046AD51A7F32790017187F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B1046B041A7F37110017187F /* NSArray+PureLayout.h in Headers */,
-				B1046AFE1A7F37070017187F /* ALView+PureLayout.h in Headers */,
-				B1046B051A7F37110017187F /* NSLayoutConstraint+PureLayout.h in Headers */,
-				B1046B081A7F37110017187F /* PureLayoutDefines.h in Headers */,
-				B1046B061A7F37110017187F /* PureLayout+Internal.h in Headers */,
-				B1046B071A7F37110017187F /* PureLayout.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		164C8B4D1C0D354E0007A6B1 /* Example-tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 164C8B5C1C0D354F0007A6B1 /* Build configuration list for PBXNativeTarget "Example-tvOS" */;
-			buildPhases = (
-				164C8B4A1C0D354E0007A6B1 /* Sources */,
-				164C8B4B1C0D354E0007A6B1 /* Frameworks */,
-				164C8B4C1C0D354E0007A6B1 /* Resources */,
-				164C8B901C0D37C70007A6B1 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				164C8B8F1C0D37C70007A6B1 /* PBXTargetDependency */,
-			);
-			name = "Example-tvOS";
-			productName = "Example-tvOS";
-			productReference = 164C8B4E1C0D354E0007A6B1 /* Example-tvOS.app */;
-			productType = "com.apple.product-type.application";
-		};
-		164C8B721C0D36500007A6B1 /* PureLayout_tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 164C8B801C0D36500007A6B1 /* Build configuration list for PBXNativeTarget "PureLayout_tvOS" */;
-			buildPhases = (
-				164C8B731C0D36500007A6B1 /* Sources */,
-				164C8B771C0D36500007A6B1 /* Frameworks */,
-				164C8B781C0D36500007A6B1 /* Headers */,
-				164C8B7F1C0D36500007A6B1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PureLayout_tvOS;
-			productName = "PureLayout-iOS";
-			productReference = 164C8B831C0D36500007A6B1 /* PureLayout.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		A7D496551B7B084800A74818 /* Example-iOS-Xcode7 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7D4967B1B7B084800A74818 /* Build configuration list for PBXNativeTarget "Example-iOS-Xcode7" */;
@@ -820,24 +644,6 @@
 			productReference = B1046AB01A7F32380017187F /* PureLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B1046AD71A7F32790017187F /* PureLayout_Mac */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B1046AF11A7F32790017187F /* Build configuration list for PBXNativeTarget "PureLayout_Mac" */;
-			buildPhases = (
-				B1046AD31A7F32790017187F /* Sources */,
-				B1046AD41A7F32790017187F /* Frameworks */,
-				B1046AD51A7F32790017187F /* Headers */,
-				B1046AD61A7F32790017187F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PureLayout_Mac;
-			productName = "PureLayout-Mac";
-			productReference = B1046AD81A7F32790017187F /* PureLayout.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		B12C23DA17C3FDE4001CF667 /* Example-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B12C23FE17C3FDE4001CF667 /* Build configuration list for PBXNativeTarget "Example-iOS" */;
@@ -855,25 +661,6 @@
 			name = "Example-iOS";
 			productName = Example;
 			productReference = B12C23DB17C3FDE4001CF667 /* Example-iOS.app */;
-			productType = "com.apple.product-type.application";
-		};
-		B1A290DA19562FDA00D4765E /* Example-Mac */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B1A290F519562FDA00D4765E /* Build configuration list for PBXNativeTarget "Example-Mac" */;
-			buildPhases = (
-				B1A290D719562FDA00D4765E /* Sources */,
-				B1A290D819562FDA00D4765E /* Frameworks */,
-				B1A290D919562FDA00D4765E /* Resources */,
-				B1046AF41A7F32790017187F /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B1046AEE1A7F32790017187F /* PBXTargetDependency */,
-			);
-			name = "Example-Mac";
-			productName = "Example-Mac";
-			productReference = B1A290DB19562FDA00D4765E /* Example-Mac.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B1EC855C195662790099293C /* PureLayoutTests-iOS */ = {
@@ -905,7 +692,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				6D207E9B1E2E99EB00CCDD7C /* PBXTargetDependency */,
 			);
 			name = "PureLayoutTests-Mac";
 			productName = "PureLayoutTests-Mac";
@@ -922,15 +708,6 @@
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0800;
 				TargetAttributes = {
-					164C8B4D1C0D354E0007A6B1 = {
-						CreatedOnToolsVersion = 7.1;
-						LastSwiftMigration = 0800;
-						ProvisioningStyle = Manual;
-					};
-					164C8B721C0D36500007A6B1 = {
-						LastSwiftMigration = 0800;
-						ProvisioningStyle = Manual;
-					};
 					A7D496551B7B084800A74818 = {
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Manual;
@@ -940,15 +717,9 @@
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Manual;
 					};
-					B1046AD71A7F32790017187F = {
-						CreatedOnToolsVersion = 6.1.1;
-					};
 					B12C23DA17C3FDE4001CF667 = {
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Manual;
-					};
-					B1A290DA19562FDA00D4765E = {
-						CreatedOnToolsVersion = 6.0;
 					};
 					B1EC855C195662790099293C = {
 						LastSwiftMigration = 0800;
@@ -976,12 +747,8 @@
 			projectRoot = "";
 			targets = (
 				B1046AAF1A7F32380017187F /* PureLayout_iOS */,
-				B1046AD71A7F32790017187F /* PureLayout_Mac */,
-				164C8B721C0D36500007A6B1 /* PureLayout_tvOS */,
 				B12C23DA17C3FDE4001CF667 /* Example-iOS */,
 				A7D496551B7B084800A74818 /* Example-iOS-Xcode7 */,
-				B1A290DA19562FDA00D4765E /* Example-Mac */,
-				164C8B4D1C0D354E0007A6B1 /* Example-tvOS */,
 				B1EC855C195662790099293C /* PureLayoutTests-iOS */,
 				B1EC857B195662B40099293C /* PureLayoutTests-Mac */,
 			);
@@ -989,22 +756,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		164C8B4C1C0D354E0007A6B1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				164C8B581C0D354F0007A6B1 /* Assets.xcassets in Resources */,
-				164C8B561C0D354E0007A6B1 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		164C8B7F1C0D36500007A6B1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A7D496751B7B084800A74818 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1022,13 +773,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1046AD61A7F32790017187F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B12C23D917C3FDE4001CF667 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1036,17 +780,6 @@
 				B1089C0C1957767400339027 /* Localizable.strings in Resources */,
 				B139A50F1956333500F33B19 /* InfoPlist.strings in Resources */,
 				B125489419C29D2A00DDD7BF /* Images-iOS.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B1A290D919562FDA00D4765E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B1046A9E1A7F2CE80017187F /* PureLayoutTests-Mac-Info.plist in Resources */,
-				B1A290E519562FDA00D4765E /* Images-Mac.xcassets in Resources */,
-				B17D24CF1957763300F2FD4B /* Localizable.strings in Resources */,
-				B17D24B619565F6C00F2FD4B /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1069,24 +802,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		164C8B4A1C0D354E0007A6B1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				164C8B511C0D354E0007A6B1 /* TVApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		164C8B731C0D36500007A6B1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				164C8B741C0D36500007A6B1 /* NSArray+PureLayout.m in Sources */,
-				164C8B751C0D36500007A6B1 /* ALView+PureLayout.m in Sources */,
-				164C8B761C0D36500007A6B1 /* NSLayoutConstraint+PureLayout.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A7D496581B7B084800A74818 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1129,16 +844,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1046AD31A7F32790017187F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B1046AF91A7F32890017187F /* NSArray+PureLayout.m in Sources */,
-				B1046AF81A7F32890017187F /* ALView+PureLayout.m in Sources */,
-				B1046AFA1A7F32890017187F /* NSLayoutConstraint+PureLayout.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B12C23D717C3FDE4001CF667 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1156,16 +861,6 @@
 				B1006C6919E7691D00B92767 /* ALiOSDemoListController.m in Sources */,
 				B162DF7219EB2BAB00D56FEA /* ALiOSDemo7ViewController.m in Sources */,
 				B162DF6919E9F0D700D56FEA /* ALiOSDemo4ViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B1A290D719562FDA00D4765E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B1A290E319562FDA00D4765E /* ALMacAppDelegate.m in Sources */,
-				B183791A195646850055842C /* ALMacViewController.m in Sources */,
-				B1A290E019562FDA00D4765E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1213,16 +908,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		164C8B8F1C0D37C70007A6B1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 164C8B721C0D36500007A6B1 /* PureLayout_tvOS */;
-			targetProxy = 164C8B8E1C0D37C70007A6B1 /* PBXContainerItemProxy */;
-		};
-		6D207E9B1E2E99EB00CCDD7C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B1A290DA19562FDA00D4765E /* Example-Mac */;
-			targetProxy = 6D207E9A1E2E99EB00CCDD7C /* PBXContainerItemProxy */;
-		};
 		A7D496561B7B084800A74818 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B1046AAF1A7F32380017187F /* PureLayout_iOS */;
@@ -1232,11 +917,6 @@
 			isa = PBXTargetDependency;
 			target = B1046AAF1A7F32380017187F /* PureLayout_iOS */;
 			targetProxy = B1046AC51A7F32380017187F /* PBXContainerItemProxy */;
-		};
-		B1046AEE1A7F32790017187F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B1046AD71A7F32790017187F /* PureLayout_Mac */;
-			targetProxy = B1046AED1A7F32790017187F /* PBXContainerItemProxy */;
 		};
 		B1046B1A1A7F4A640017187F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1308,148 +988,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		164C8B5A1C0D354F0007A6B1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = "Example-tvOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PureLayout.Example-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Debug;
-		};
-		164C8B5B1C0D354F0007A6B1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = "Example-tvOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PureLayout.Example-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Release;
-		};
-		164C8B811C0D36500007A6B1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = "Supporting Files/PureLayout_tvOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PureLayout.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = PureLayout;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		164C8B821C0D36500007A6B1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = "Supporting Files/PureLayout_tvOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PureLayout.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = PureLayout;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		A7D4967C1B7B084800A74818 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1568,84 +1106,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B1046AF21A7F32790017187F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = "Supporting Files/PureLayout_Mac/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PureLayout.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = PureLayout;
-				PROVISIONING_PROFILE = None;
-				PROVISIONING_PROFILE_SPECIFIER = None;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B1046AF31A7F32790017187F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = "Supporting Files/PureLayout_Mac/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PureLayout.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = PureLayout;
-				PROVISIONING_PROFILE = None;
-				PROVISIONING_PROFILE_SPECIFIER = None;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1773,66 +1233,6 @@
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		B1A290F619562FDA00D4765E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = "Example-Mac/Example-Mac-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PureLayout.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = None;
-				PROVISIONING_PROFILE_SPECIFIER = None;
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		B1A290F719562FDA00D4765E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = "Example-Mac/Example-Mac-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PureLayout.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = None;
-				PROVISIONING_PROFILE_SPECIFIER = None;
-				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -1976,24 +1376,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		164C8B5C1C0D354F0007A6B1 /* Build configuration list for PBXNativeTarget "Example-tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				164C8B5A1C0D354F0007A6B1 /* Debug */,
-				164C8B5B1C0D354F0007A6B1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		164C8B801C0D36500007A6B1 /* Build configuration list for PBXNativeTarget "PureLayout_tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				164C8B811C0D36500007A6B1 /* Debug */,
-				164C8B821C0D36500007A6B1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		A7D4967B1B7B084800A74818 /* Build configuration list for PBXNativeTarget "Example-iOS-Xcode7" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2012,15 +1394,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1046AF11A7F32790017187F /* Build configuration list for PBXNativeTarget "PureLayout_Mac" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B1046AF21A7F32790017187F /* Debug */,
-				B1046AF31A7F32790017187F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		B12C23D617C3FDE4001CF667 /* Build configuration list for PBXProject "PureLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2035,15 +1408,6 @@
 			buildConfigurations = (
 				B12C23FF17C3FDE4001CF667 /* Debug */,
 				B12C240017C3FDE4001CF667 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B1A290F519562FDA00D4765E /* Build configuration list for PBXNativeTarget "Example-Mac" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B1A290F619562FDA00D4765E /* Debug */,
-				B1A290F719562FDA00D4765E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
